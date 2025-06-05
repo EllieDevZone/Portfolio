@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="styles.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+ <div class="button">
+        <div class="ball"></div>
+    </div>
+    <script>
+        document.querySelector('.ball').addEventListener('click', (e)=>{
+            e.target.classList.toggle('ball-move');
+            document.body.classList.toggle('dark');
+        });
+    </script>
+
+
+    <header>
+        <img src="logo.png" alt="logo" class="logo">
+        <h1>EllieDevZone</h1>
+        <h4>Dev Front-end iniciante</h4>
+    </header>
+
+    <section class="mim">
+        <h2>Sobre Mim</h2>
+        <p>Estudante de desenvolvimento front-end com conhecimento em HTML, CSS, design no Canva e criação de slides e sites. Faço projetos pessoais e já auxiliei professores no meu tempo de ensino médio com apresentações visuais. Busco minha primeira oportunidade profissional para evoluir e contribuir com o que já sei.</p>
+</section>
+
+<section class="projetos">
+  <h2>Projetos</h2>
+  <div class="cards">
+    <div class="card">EM BREVE</div>
+    <div class="card">EM BREVE</div>
+    <div class="card">EM BREVE</div>
+  </div>
+</section>
+
+
+
+<div class="social-icons">
+                <a href="https://www.linkedin.com/in/miliele-vidinha-1b890833b" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/elliedevzone" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://instagram.com/elliedevzone" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+
+</body>
+</html>
